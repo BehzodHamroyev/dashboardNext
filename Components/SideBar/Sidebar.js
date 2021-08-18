@@ -33,7 +33,7 @@ const SideBarWrapper = styled.div`
     overflow-y: auto;
     position: sticky;
     top: 0;
-    z-index: 3000;
+    z-index: 3000 !important;
     transition: all 1s linear;
     .active {
       background-color: #919eab6f;

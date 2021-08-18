@@ -7,11 +7,12 @@ const Albums = () => {
         setAlbums()
     }, [])
     const data = useSelector(state => state.albumsReducer.data)
+console.log(data)
     return (
         <div className="container text-center">
             <h1>Albums</h1>
             {
-                data.map((v, i) => {
+                data?.map((v, i) => {
                     return <p key={i}>{v.id}</p>
                 })
             }

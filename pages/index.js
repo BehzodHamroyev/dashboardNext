@@ -8,7 +8,6 @@ import Swiper from '../Components/HomeComponents/Swipper'
 import CardAnalytic from '../Components/HomeComponents/cardAnalytic'
 import HomeCardWrapper from '../Components/HomeComponents/HomeCardWrapper';
 import CardDiagram from '../Components/HomeComponents/cardDiagram'
-// import Banner from '../Components/HomeComponents/Banners'
 const HomeWrapper = styled.div`
 overflow-x:hidden;`;
 const data = [

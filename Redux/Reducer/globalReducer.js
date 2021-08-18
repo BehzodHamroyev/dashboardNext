@@ -11,11 +11,12 @@ const reducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_LOADING: return { ...state, loading: action.payload };
         case SET_ERROR: return { ...state, error: action.payload };
-        case TOGGLE_SIDEBAR: return { ...state, isSidebarShow: !state.isSidebarShow }
+        case TOGGLE_SIDEBAR:
+            console.log("TOGGLE_SIDEBAR", action.type);
+            return { ...state, isSidebarShow: !state.isSidebarShow }
 
         default: return state;
     }
-
 }
 
 export default reducer;
